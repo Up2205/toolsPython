@@ -8,7 +8,12 @@ from telegram import BotCommand, Update, Bot
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ✅ إعدادات تيليجرام
+<<<<<<< HEAD
 TOKEN = ''
+=======
+TOKEN = '7342989520:AAHwLpwU8Bpos86ShuPX-cJoDKQxWgFxJss'
+CHAT_ID = '5389040264'
+>>>>>>> 68c85e99034fbe13bffe68b283cb36a395b478e7
 bot = Bot(token=TOKEN)
 
 # ✅ إعداد Binance
@@ -18,7 +23,11 @@ exchange = ccxt.binance({
 })
 
 # ✅ قائمة العملات اللي تبي تراقبها فقط
+<<<<<<< HEAD
 WATCHLIST = ["BTC/USDT", "ETH/USDT", "SOL/USDT", "PEPE/USDT","ADA/USDT"]
+=======
+WATCHLIST = ["BTC/USDT", "ETH/USDT", "SOL/USDT", "PEPE/USDT"]
+>>>>>>> 68c85e99034fbe13bffe68b283cb36a395b478e7
 
 # ✅ /start - ترحيب
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
